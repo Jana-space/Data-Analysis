@@ -49,7 +49,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # load the trained model and other items
-model = pickle.load(open('models/best_gradient_model.pkl', 'rb'))
+model = pickle.load(open('best_gradient_model.pkl', 'rb'))
 encoder_wd = pickle.load(open('models/encoder_wd.pkl', 'rb'))
 encoder_station = pickle.load(open('models/encoder_station.pkl', 'rb'))
 scaler = pickle.load(open('models/scaler.pkl', 'rb'))
